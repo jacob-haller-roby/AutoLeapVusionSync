@@ -1,0 +1,25 @@
+{
+  "name": "autoleapvusionsync",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/jacob-haller-roby/AutoLeapVusionSync#readme",
+  "bugs": {
+    "url": "https://github.com/jacob-haller-roby/AutoLeapVusionSync/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jacob-haller-roby/AutoLeapVusionSync.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "cron": "^4.4.0",
+    "dotenv": "^17.3.1"
+  }
+}
