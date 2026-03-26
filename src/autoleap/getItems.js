@@ -27,7 +27,7 @@ export const getItems = async (days) => {
             }
         );
 
-        const data = await resp.text();
+        const data = await resp.json();
         items.push(...data.content);
         if (data.last) break;
         page++;
