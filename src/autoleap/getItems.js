@@ -9,9 +9,6 @@ export const getItems = async (days) => {
     const items = [];
     let page = 1;
 
-    // test
-
-    return [{test: 'this'}]
     while (true) {
         const query = new URLSearchParams({
             companyId: COMPANY_ID,
